@@ -1,6 +1,6 @@
 La Casa C es un casa diseñada con los siguientes principios:
 
-* [Confort](construccion/confort.md)
+* [Confort](construccion/Confort.md)
 * [Eficiencia energética](construccion/Eficiencia energetica.md)
 * Bajo Mantenimiento
 * Sustentabilidad
@@ -20,5 +20,5 @@ El proyecto llevo tres años de planeamiento, un 18 meses de ejecución y en la 
 * [Fotos tomadas durante la construccion](https://goo.gl/photos/PSqoa4BDfdnn28Vv8)
 * [Diseno Pasivo](construccion/Diseno Pasivo.md)
 
-## Domotica [(sección en ingles)](../en/Home Automation.md)
+## Domotica [(sección en ingles)](../en/)
 

@@ -19,7 +19,7 @@
   -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
   -->
 
-[Confort](construccion/confort.md)
+[Confort](construccion/Confort.md)
 [Eficiencia](construccion/Eficiencia energetica.md)
 [Fotos](https://goo.gl/photos/PSqoa4BDfdnn28Vv8)
 

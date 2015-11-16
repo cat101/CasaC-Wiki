@@ -1,7 +1,7 @@
 ## Climatización
 En gran parte el confort de una casa se debe al control de la temperatura y humedad interior. El desafío en la Casa C fue lograr una agradable temperatura en toda la casa intentando limitar el uso de energía externa. Para elle se siguieron tres principios de diseño fundamentales
 
-1. [Diseño pasivo](diseno pasivo.md)  
+1. [Diseño pasivo](Diseno Pasivo.md)  
 2. [Construcción de alta aislación](metodo constructivo.md)
 3. Sectorización de los espacios habitables: La casa tiene cuatro zonas habitables las cuales se climatizan de forma independiente y están divididas con puertas internas de aislantes con burleteria de doble contacto. Las zonas son: social, dormitorios, oficina y Baños
 

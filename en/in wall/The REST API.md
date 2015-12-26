@@ -52,16 +52,20 @@ This command updates the EEPROM configuration data. It applies to the slaves and
 
 The ##setMode## command allows to enable and disable selective features
 
-- curl "192.168.14.80/setMode?node=4&set=5" Set service mode (in production service mode disables the procesing of switches & lights)
-- curl "192.168.14.80/setMode?node=4&reset=5" Reset service mode
-- curl "192.168.14.80/setMode?node=255&set=3" Set isDark
-- curl "192.168.14.80/setMode?node=255&reset=3" Reset isDark
-- curl "192.168.14.80/setMode?node=255&set=4" Set debugEnabled
-- curl "192.168.14.80/setMode?node=255&reset=4" Reset debugEnabled
-- curl "192.168.14.80/setMode?node=0&reset=100" Disables the RuleEvaluator
-- curl "192.168.14.80/setMode?node=0&set=100" Disables the RuleEvaluator
-- curl "192.168.14.80/setMode?node=0&set=101" Disables the water heater logic
-
+- curl "192.168.14.80/setMode?node=4&set=5"      Set service mode. In production service mode disables the IO write operation on the sensoracq class (i.e. light won't turn on or off)
+- curl "192.168.14.80/setMode?node=4&reset=5"    Reset service mode
+- curl "192.168.14.80/setMode?node=255&set=3"      Set isDark
+- curl "192.168.14.80/setMode?node=255&reset=3"    Reset isDark
+- curl "192.168.14.80/setMode?node=255&set=4"      Set debugEnabled
+- curl "192.168.14.80/setMode?node=255&reset=4"    Reset debugEnabled
+- curl "192.168.14.80/setMode?node=0&reset=100"    Disables the RuleEvaluator (i.e. all time of day related rules)
+- curl "192.168.14.80/setMode?node=0&set=100"      Enables the RuleEvaluator
+- curl "192.168.14.80/setMode?node=0&set=101"      Enables the water heater logic
+- curl "192.168.14.80/setMode?node=0&set=102"      Enables ioTimers behind courtesy lights (excludes stairs)
+- curl "192.168.14.80/setMode?node=0&reset=102"    Disables ioTimers
+- curl "192.168.14.80/setMode?node=0&set=103"      Enables a level & heat boost cycle for the water heater
+- curl "192.168.14.80/setMode?node=0&set=104"      Enables winter mode for the burglar alarm
+  
 - curl "192.168.1.80/stresstest?node=1&nextRoundDelay=3&paddingLen=10"
 
 Return the last exception and a set of vital stats regarding resource usage

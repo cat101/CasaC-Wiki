@@ -21,6 +21,8 @@ El control de humedad esta planteado en gran parte mediante el calculo de los re
 * Tostadora y microondas
 * Dispenser de detergente para 5L
 * Basurero
+* Luces automaticas y de cortesia ([ver eficiencia](Eficiencia energetica.md)
+)
 
 ## Calidad de aire
 * filtros aires (en aires y tanque) 

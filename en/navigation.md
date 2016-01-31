@@ -28,7 +28,7 @@
 
   * # House state
   * [The burglar alarm](in wall/The burglar alarm.md)
-  * [Dispatchers](in wall/Dispatchers.md)
+  * [Dispatchers &amp; event routing](in wall/Dispatchers.md)
   * [RS485 Commands](in wall/RS485 Commands.md)
   - - - -
   * # Addressing resources on slaves and across the house

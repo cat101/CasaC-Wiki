@@ -7,3 +7,9 @@ Key features
 - Sensor noise immunity: double check sensor state (500ms)
 - Spoken commands & countdown
 - Ignore open sensors and enroll them on close
+- Email/IFTT based alerting
+- Presence simulation
+- Door access control
+- Access control & alarm usage logging
+- PIN, RFID and remote based activation
+

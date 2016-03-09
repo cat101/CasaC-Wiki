@@ -27,7 +27,7 @@
 [Code design &amp; documentation]()
 
   * # House state
-  * [The burglar alarm](in wall/The burglar alarm.md)
+  * [The burglar alarm](building management/The burglar alarm.md)
   * [Dispatchers &amp; event routing](in wall/Dispatchers.md)
   * [RS485 Commands](in wall/RS485 Commands.md)
   - - - -

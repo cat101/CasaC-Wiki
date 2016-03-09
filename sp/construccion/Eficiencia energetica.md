@@ -13,3 +13,4 @@
 * Ac coupling of PV & UPS 
 
 ## Solar WH
+*  Control predictivo para minimizar el uso de la resistencia.

@@ -1,13 +1,13 @@
 ## Introduction
 
-When I started La Casa C I had two options: use commercial products like home automation controllers, security lighting, burglar alarm, etc. and then spend my time trying to integrate proprietary protocols or use Open Source hardware and software to build/integrate everything from scratch. Having suffered the commercial/closed approach with my previous house I decided to try the latter.
+When I started La CasaC I had two options: use commercial products like home automation controllers, security lighting, burglar alarm, etc. and then spend my time trying to integrate proprietary protocols or use Open Source hardware and software to build/integrate everything from scratch. Having suffered the commercial/closed approach with my previous house I decided to try the latter.
 
 Building the system from scratch was a significant challenge given the scale of the project. The “initial specs” based on the house blueprints and family expectations included:
 
 - 40 Wall switches to turn lights on/off
 - 45 Light channels to control 136 lamps
 - 2 Garage doors and 2 doors with an electric lock
-- 2 Mechanized awnings that follow the sun on summer to keep the living room cool
+- 2 Mechanized awnings that had to follow the sun on summer to keep the living room cool
 - 55 sensors (doors switches, PIR sensors, water flood, pool alarm)
 - A weather station 
 - A solar water heater
@@ -15,7 +15,7 @@ Building the system from scratch was a significant challenge given the scale of 
 - 2 bathroom heaters and 2 bathroom fans
 - A kitchen range
 - 8 smoke detectors/air quality sensors
-- An energy consumption sensor and backup power generator
+- A four channel energy meter with an automatic transfer switch to a backup power generator
 - A whole house PA system for TTS cues
 - 2 RFID keypads for access control
 
@@ -25,13 +25,13 @@ The seven Arduino slaves are connected to an Arduino master using an [RS485 netw
 
 The master node is also the boundary between the “in wall” control system (aka domotics) and the building management system. The master Arduino node is connected to the house LAN and exposes simple/crude [REST commands](in wall/The REST API.md) to the building management software.
 
-The following picture provides an overview of the multiple layers that make up La Casa C
+The following picture provides an overview of the multiple layers that make up La CasaC
 
 ![Automation system overview](../uploads/images/Overall%20automation%20system.png?50%)
 
 Starting from left to right
 
-- Surrogate modules: Some of the sensors are themselves small controllers that do not interface directly to the house RS485 network and get exposed through a slave node (e.g. the weather station, the energy controller, etc)
+- Surrogate modules: Some of the sensors are themselves small controllers that do not interface directly to the house RS485 network and get exposed through a slave node (e.g. the weather station, the energy meter, the climate controllers, etc)
 - Slave nodes
 - Master node
 - Building Management node: This node includes a couple of software layers. A REST proxy that adds abstraction to the Master node’s API and provides caching and access control (MTLS). An archiving process that converts the sensor data recorded by the master into CSV and stores it on the house NAS. An instance of OpenHab which provides building management services.
@@ -40,7 +40,7 @@ Looking forward, I envision other systems that will integrated into this set up 
 
 ## In wall system construction
 
-All the Arduino based slave and master nodes are made using mostly off the shelve modules which are bolted onto a piece of plywood and wired all together. I refer to each piece of plywood as a “motherboard”. Although there are commonalities across the eight motherboards in La Casa C, each one is unique based on the functions it carries our for the house.
+All the Arduino based slave and master nodes are made using mostly off the shelve modules which are bolted onto a piece of plywood and wired all together. I refer to each piece of plywood as a “motherboard”. Although there are commonalities across the eight motherboards in La CasaC, each one is unique based on the functions it carries our for the house.
 
 Sample motherboard
 

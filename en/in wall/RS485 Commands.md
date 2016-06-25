@@ -26,6 +26,12 @@
 - Constants 
   - RS485CMD\_SET\_MODE:7
 
+## Send command to surrogate
+
+- This command is used to send a command (text string) to a surrogate via a slave. No return value/acknowledgment is expected
+- Constants 
+  - RS485CMD\_SEND\_SURROGATE\_CMD:8
+
 ## RS485CMD\_COMM\_CHECK (code 240)
 
 ## RS485CMD\_SERVICE\_MODE (code 241) --- Deprecated. See: RS485CMD\_SET\_MODE

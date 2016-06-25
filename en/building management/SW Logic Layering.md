@@ -28,4 +28,5 @@
 - Interaction
 	- Slaves poll surrogates and copy their info to the slave's memory (acquired by the master during extended poll)
 	- Surrogate state is changed by commands directly from the master (tunneled using the C command)
+		- For details on payload see RESTServer.cpp:606
 	- The slaves process the surrogate inputs and generate events if needed (no event or constants are assigned by resourceProcesor.pl)

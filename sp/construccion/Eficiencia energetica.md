@@ -7,6 +7,8 @@
 	* Modo nocturno en hall PA
 
 ## Aislacion
+* Sistema constructivo y aberturas
+* Toldos mecanizados
 
 ## Solar PV
 * Paneles montados sobre blockes (balasted solar mount)

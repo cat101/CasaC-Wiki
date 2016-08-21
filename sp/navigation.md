@@ -3,7 +3,7 @@
   -- Do NOT remove the leading `#` character.
   -->
 
-# La CasaC
+# La Casa C
 
 
 <!--
@@ -18,7 +18,7 @@
   -- Navigation
   -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
   -->
-
+[Diseño y construcción](construccion/Diseno y construccion.md))
 [Confort](construccion/Confort.md)
 [Eficiencia](construccion/Eficiencia energetica.md)
 [Fotos](https://goo.gl/photos/PSqoa4BDfdnn28Vv8)

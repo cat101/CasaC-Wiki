@@ -1,2 +1,0 @@
-## Sistema exacta
-## Revoque proyectado

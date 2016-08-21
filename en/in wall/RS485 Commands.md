@@ -24,13 +24,13 @@
 - This command is used to set & share mode bits with single nodes or the whole house. Nodes won't sent an acknowledge when receiving this command
 - The commands pushes 2 mode bytes. Description of the individual bits can be found on [libraries/RS485Slave/RS485Slave.cpp:142](https://bitbucket.org/cat101/casac/src/default/libraries/RS485Slave/RS485Slave.cpp#cl-142)
 - Constants 
-  - RS485CMD\_SET\_MODE:7
+  - RS485CMD\_SET\_MODE:8
 
 ## Send command to surrogate
 
 - This command is used to send a command (text string) to a surrogate via a slave. No return value/acknowledgment is expected
 - Constants 
-  - RS485CMD\_SEND\_SURROGATE\_CMD:8
+  - RS485CMD\_SEND\_SURROGATE\_CMD:9
 
 ## RS485CMD\_COMM\_CHECK (code 240)
 

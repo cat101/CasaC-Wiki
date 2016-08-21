@@ -5,20 +5,24 @@ La Casa C es un casa diseñada con los siguientes principios:
 * Bajo Mantenimiento
 * Sustentabilidad
 
-Porque se llama la Casa C? Del modelado energético para climatización en invierno y verano da que la casa necesita 42 Kw/m2/año. Esto la clasifica como un casa clase C. En contraste una casa de ladrillo tradicional necesita 140 Kw/m2/año (o sea clase F).
+__Porque se llama la Casa C?__ Del modelado energético para climatización en invierno y verano se estimó que la casa necesitaba 42 Kw/m2/año. Esto la clasifica como un casa clase C. En la practica la casa resulto ser clase A (10 Kw/m2/año). En contraste una casa de ladrillo tradicional necesita 140 Kw/m2/año (o sea clase F). 
 
 Estas son algunas de las características sobresalientes de la casa:
 
-* Se re usa el 100% del agua potable consumida 
+* El 100% del agua potable consumida es re-usada para riego
 * El 100% de las zonas habitables de la casa son climatizadas
-* Todos los ambientes tienen luz natural. La iluminación artificial esta diseñada para el uso de lámparas de bajo consumo (principalmente LED). Por ejemplo la fachada tiene 30 artefactos que en total consume 100W (25W en modo nocturno)
-* La iluminación, climatización, gestión de energía solar y seguridad son controladas por nueve computadoras. El hardware y software son un diseño propio utilizando tecnología Open Source
+* Todos los ambientes tienen luz natural. La iluminación artificial esta diseñada para el uso de lámparas de bajo consumo (principalmente LED). Por ejemplo la fachada tiene 30 artefactos que en total consumen 100W (25W en modo nocturno)
+* La iluminación, climatización, gestión de energía solar y seguridad son controladas por dieciséis micro-computadoras. El hardware y software son un diseño propio utilizando tecnología Open Source
 
-El proyecto llevo tres años de planeamiento, un 18 meses de ejecución y en la actualidad llevamos un año de puesta a punto. Por ahora solo están disponibles fotos de la obra y algunas páginas en el Wiki. El código y diseño del sistema de control todavía no es público.
+La casa se construyo entre 2012 y 2013. El proceso de diseño y planeamiento llevo tres años. En la actualidad llevamos dos años de puesta a punto. Por ahora solo están disponibles fotos de la obra y algunas páginas en el Wiki. El código y diseño del sistema de control todavía no es público.
 
 ## Construcción de la Casa C
-* [Fotos tomadas durante la construccion](https://goo.gl/photos/PSqoa4BDfdnn28Vv8)
-* [Diseno Pasivo](construccion/Diseno Pasivo.md)
+Durante el proceso de diseño se evaluaron varias experiencias previas y tecnologías con el fin de cumplir con los objetivos de confort, eficiencia, bajo mantenimiento y sustentabilidad. Los elementos que resultaron claves fueron la aplicación de criterios de diseño pasivo y el método constructivo utilizado ([ver detalles aca](construccion/Diseno y construccion.md))
+
+El desarrollo de la obra se puede [ver en fotos aquí](https://goo.gl/photos/PSqoa4BDfdnn28Vv8)
+
+<!-- ![The Matrix House](../images/Frente casa matrix.jpg) -->
+<img src="../images/Frente casa matrix.jpg" alt="The Matrix House" style="width: 300px;"/>
 
 ## Domotica [(sección en ingles)](../en/)
 

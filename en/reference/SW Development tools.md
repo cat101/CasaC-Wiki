@@ -8,8 +8,10 @@
  - [Couscous: static MD rendering](http://couscous.io/)
  - [Embeddable markdown processor](http://strapdownjs.com/) 
  - Start a local webserver "python -m SimpleHTTPServer 8000"
+   - The open http://localhost:8000/sp/index-offline.html
 - Creole references
   - [http://www.wikicreole.org/wiki/Creole1.0](http://www.wikicreole.org/wiki/Creole1.0) 
   - [http://scottboms.com/downloads/documentation/markdown\_cheatsheet.pdf](http://scottboms.com/downloads/documentation/markdown_cheatsheet.pdf) 
+    - Locally at ˜/Downloads/markdown_cheatsheet.pdf
   - [http://creolec.sourceforge.net/creole\_cheat\_sheet.pdf](http://creolec.sourceforge.net/creole_cheat_sheet.pdf)
 - [Original bitbucket root page](Home Backup.md)

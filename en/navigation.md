@@ -41,8 +41,9 @@
   * [Storing slave's config data on EEPROM](in wall/Storing slave's config data on EEPROM.md)
   * [Storing master's config data on SD](in wall/Storing master's config data on SD.md)
 
-[References](reference/SW Development tools.md)
+<!-- [References](reference/SW Development tools.md) -->
 
+[GitHub Repo](https://github.com/cat101/CasaC)
 
 
 <!-- A more complex navigation example: ----------------------------------------

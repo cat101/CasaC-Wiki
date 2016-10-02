@@ -103,5 +103,5 @@ The master node performs slave’s functionalities for all its locally attached 
 
 More details about the control software can be found under “[Advanced in wall SW topics](in wall/Advanced in wall SW topics.md)” (poorly documented)
 
-To-Do: Add a section about the SW features and references to the source code (e.g. burglar alarm, voice cues, water heater logic, courtesy lights, access control, presence detection, awning control, presence simulation, remote house control, energy monitoring, data logging, etc.)
+<!-- To-Do: Add a section about the SW features and references to the source code (e.g. burglar alarm, voice cues, water heater logic, courtesy lights, access control, presence detection, awning control, presence simulation, remote house control, energy monitoring, data logging, etc.) -->
 

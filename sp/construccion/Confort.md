@@ -8,14 +8,11 @@ En gran parte el confort de la casa se debe al control de la temperatura y humed
 * Control de humedad pasivo y activo. En la mayoría de los ambientes el recambio de aire se produce naturalmente por perdidas y en algunos se introdujo rejillas. En los baños se usan extractores mecánicos automáticos para rápidamente evacuar la humedad luego de un baño.
 
 #### Experiencia practica
-Estos son algunos de los resultados iniciales:
+Estos son algunos de los resultados iniciales en cuanto a la climatizacion e inercia térmica:
 
 * En una zona grande como el living (100m2) se puede subir o bajar 10 grados Celsius en 20 minutos. Los aires comienzan consumiendo 2.5Kw/h y luego bajan 600w/h cuando se alcanza el objetivo. 
-* En ambientes con mejor aislación como los dormitorios (44m2) el aire logra mantener 20C adentro con 7C afuera trabajando solo 30 minutos por hora y consumiendo 700w/h. 
+* En ambientes con mejor aislación como los dormitorios (44m2) el aire acondicionado logra mantener 20C adentro con 7C afuera trabajando solo 30 minutos por hora y consumiendo 700w/h. 
 * En un baño de 3.6m2, alcanza con prender el caloventor de 2000W al comienzo del baño para que el ambiente este agradable al termina el mismo (i.e. 10 min).
-
-<!-- Aggregar email de uso de energia del primer año -->
-
 
 ## Practicidad en el uso diario
 
@@ -38,10 +35,13 @@ Algunos ambientes cuentan con aromatizadores automáticos con sensor de presenci
 
 ## Calidad del agua 
 La casa cuenta con tres etapas de filtrado. El primer filtro remueve las partículas gruesas para proteger la instalación y griferia. Un segundo filtro de carbón activado remueve el cloro antes ingresar al tanque de agua. En la cocina hay un tercer filtro que remueve metales pesados antes del consumo humano.
-El tanque de agua se encuentra en el interior de la casa para así garantizar una temperatura de agua agradable todo el año (entre 25 y 17 grados)
+El tanque de agua se encuentra en el interior de la casa para así garantizar una temperatura de agua agradable todo el año (entre 25 y 17 grados).
 
 ## Acondicionamiento eléctrico
-* Ac coupling of PV & UPS 
-* Ver bajo mantenimiento
+La falta de un servicio eléctrico de calidad genera disconfort. En particular la presencia de micro cortes, cortes prolongados, subidas y bajadas de tensión producen intranquilidad y generan fallas en otros servicios (internet, telefono, etc). La Casa C cuenta con varios mecanismos para garantizar un servicio de calidad. Entre ellos se destacan:
 
+ * Un tendido de UPS que permite garantizar la continuidad de servicios como Internet, cámaras de vigilancia, luces en áreas de transito y la operación de portones mecanizados. En condiciones normales la UPS esta dimensionada para garantizar estos servicios por 10 horas. La UPS puede generar 2Kw/h pico y tiene una batería de 12v x 110A (i.e. 1300W).
+ * Estabilización de tensión para toda la casa con corte por sobre tensión. Esto garantiza la correcta operación de todos los aparatos eléctricos.
+ * En caso de necesitar energía para otros aparatos no conectados a la UPS (aire acondicionados, heladeras, etc) se puede prender un grupo electrógeno el cual cuenta con un transfer switch automatico. 
 
+Para mas información sobre el acondicionamiento eléctrico ver el [esquema eléctrico detallado](../../uploads/Diagramas electricos - circuitos.pdf).

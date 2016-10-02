@@ -5,7 +5,7 @@ La Casa C es un casa diseñada con los siguientes principios:
 * Bajo Mantenimiento
 * Sustentabilidad
 
-__Porque se llama la Casa C?__ Del modelado energético para climatización en invierno y verano se estimó que la casa necesitaba 42 Kw/m2/año. Esto la clasifica como un casa clase C. En la practica la casa resulto ser clase A (10 Kw/m2/año). En contraste una casa de ladrillo tradicional necesita 140 Kw/m2/año (o sea clase F). 
+__Porque se llama la Casa C?__ Del modelado energético para climatización en invierno y verano se estimó que la casa necesitaba 42 Kw/m2/año. Esto la clasifica como un casa clase C. En la practica la casa resultó ser clase A (10 Kw/m2/año). En contraste una casa de ladrillo tradicional necesita 140 Kw/m2/año (o sea clase F). 
 
 Estas son algunas de las características sobresalientes de la casa:
 

@@ -1,5 +1,7 @@
 ## Reader usage
 
+![](../images/RFID%20Keypad.jpg?50%)
+
 - Commands
   - pins are four digits and cannot end with 0 
   - RFID card opens the door directly (does not affect arm/disarmed state)
@@ -32,7 +34,7 @@ void p2loop(){ // Called from loop
 void sendEventsToMaster(){ // Called from RS485Slave::processConnection
   // Check if there is an outstanding reader event to piggy back
   if(reader.lastEntry){
-    byte cardReaderEv[]={0x14}; // The extraframe format is Frametype (4bits), Framesize(4bits)
+    byte cardReaderEv[]={0x14}; // The extra frame format is Frametype (4bits), Framesize(4bits)
     sendMsgPart (cardReaderEv, sizeof(cardReaderEv), false);
     sendMsgPart ((byte *)&reader.lastEntry, sizeof(reader.lastEntry), false);
     reader.lastEntry=0;

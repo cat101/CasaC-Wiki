@@ -1,6 +1,7 @@
 ## Reader usage
 
-![](../images/RFID%20Keypad.jpg?50%)
+<!-- ![](../../images/RFID%20Keypad.jpg?50%) -->
+<img src="../../images/RFID%20Keypad.jpg" alt="keypad" style="width: 300px;"/> 
 
 - Commands
   - pins are four digits and cannot end with 0 

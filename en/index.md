@@ -80,7 +80,7 @@ The in wall software follows loosely a dependency injection pattern (solved at c
 
 The core home automation logic is expressed as simple if-then rules on an Excel sheet. These rules are compiled into C code and are injected as dependencies to the slaves and the master node. The rule compiler (a.k.a. ResourcePreprocesor) can break complex rules across multiple slaves and the master. Every wall switch, sensor, light, etc. has an identifier which is referenced on rules (see [IO access constants](in wall/IO access constants.md)).
 
-At runtime the master node polls all slaves for updates every 250ms (i.e. 4 times per second). Slaves reply with a portion of their sensor memory map that includes digital I/O and alarm loops (see [Memory maps & zone masks](Memory+maps+%26+zone+masks)). Alternatively, slaves may reply with an event for the master. Every 30 seconds each slave is also asked for its full memory map (called extended polling). This brings into the master other sensors like weather station, water heather data, light sensors, etc.
+At runtime the master node polls all slaves for updates every 250ms (i.e. 4 times per second). Slaves reply with a portion of their sensor memory map that includes digital I/O and alarm loops (see [Memory maps & zone masks](in wall/Memory maps & zone masks.md)). Alternatively, slaves may reply with an event for the master. Every 30 seconds each slave is also asked for its full memory map (called extended polling). This brings into the master other sensors like weather station, water heather data, light sensors, etc.
 
 This is a list of the key injection points for a slave node:
 

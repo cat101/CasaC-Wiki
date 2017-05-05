@@ -1,6 +1,8 @@
 #IO access constants
 ## Constants nomenclature
 
+Every sensor, switch or actuator follows a naming convention. For example `PB_C01_B` refers to a light switch (`B`), located on the ground floor (`PB`), connected to input 01 on the kitchen controller (`C01`). More details below
+
 - Node prefix: PA\_O, SS\_S
 - Type suffix:
   - A = ADC input
@@ -10,7 +12,7 @@
   - J = Audio amp control
   - L = light
   - M = Magnetic sensor (NC)
-  - O = Other
+  - O = Other (typically a custom memory map use to store more complex sensors)
   - P = Panic push button (NC)
   - R = Tamper sensor (NC)
   - S = virtual sensor typically created by a double click

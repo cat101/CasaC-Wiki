@@ -1,6 +1,6 @@
 ## Introduction
 
-When I started La CasaC I had two options: use commercial products like home automation controllers, security lighting, burglar alarm, etc. and then spend my time trying to integrate proprietary protocols or use Open Source hardware and software to build/integrate everything from scratch. Having suffered the commercial/closed approach with my previous house I decided to try the latter.
+La CasaC is a comfortable, efficient, low maintenance & sustainable family house. All of this is achieved through innovative construction & design techniques and lots of automation. When I started planning La CasaC I had two options in order to automate it: use commercial products like home automation controllers, security lighting, burglar alarm, etc. and then spend my time trying to integrate proprietary protocols or use Open Source hardware and software to build/integrate everything from scratch. Having suffered the commercial/closed approach with my previous house I decided to try the latter.
 
 Building the system from scratch was a significant challenge given the scale of the project. The “initial specs” based on the house blueprints and family expectations included:
 
@@ -18,8 +18,9 @@ Building the system from scratch was a significant challenge given the scale of 
 - A four channel energy meter with an automatic transfer switch to a backup power generator
 - A whole house PA system for TTS cues
 - 2 RFID keypads for access control
+- 4 433Mhz RF receivers
 
-This list adds up to over 200 “things” that the house needs to operate. In order to cope with complexity, I distributed the things across seven controllers (Arduinos) which are in physical proximity to the sensors/actuators. This also helps reduce the need for cabling. Each of these Arduinos (called slaves) can operate independently and carry out logic that does not require global visibility or remote resources (i.e. not physically connected). For example, a wall switch rule can directly control a set of local lights.
+This list adds up to over 200 “things” that the house needs to operate. In order to cope with complexity, I distributed the "things" across seven controllers (Arduinos) which are in physical proximity to the sensors/actuators. This also helps reduce the need for cabling. Each of these Arduinos (called slaves) can operate independently and carry out logic that does not require global visibility or remote resources (i.e. not physically connected). For example: a wall switch rule can directly control a set of local lights.
 
 The seven Arduino slaves are connected to an Arduino master using an [RS485 network](in wall/RS485 Commands.md). The master node polls each slave 4 times per second and executes rules that spawn multiple slaves or that require global or contextual information like time, people presence, sun position, etc.
 
@@ -27,7 +28,7 @@ The master node is also the boundary between the “in wall” control system (a
 
 The following picture provides an overview of the multiple layers that make up La CasaC
 
-![Automation system overview](../uploads/images/Overall%20automation%20system.png?50%)
+![Automation system overview](../uploads/images/Overall automation system.png?50%)
 
 Starting from left to right
 
@@ -36,7 +37,11 @@ Starting from left to right
 - Master node
 - Building Management node: This node includes a couple of software layers. A REST proxy that adds abstraction to the Master node’s API and provides caching and access control (MTLS). An archiving process that converts the sensor data recorded by the master into CSV and stores it on the house NAS. An instance of OpenHab which provides building management services.
 
-Looking forward, I envision other systems that will integrated into this set up like a video doorbell, a CCTV DVR and a Kodi based media & TV delivery system.
+<!-- ## What can the house do?
+
+
+ -->
+
 
 ## In wall system construction
 
@@ -54,7 +59,7 @@ Here is a list of some of the modules a motherboard can include
 - Water level & temperature interface module ( [reverse engineering notes](http://hack4life.pbworks.com/w/page/75653090/Arduino%20Solar%20Water%20Heater%20Sensor))
 - Light sensor module
 - Flood sensor module
-- Digitally controlled PA audio amp module ( [Pic1](../uploads%2Fimages%2FAmp+Module+1.jpg), [Pic2](../uploads%2Fimages%2FAmp+Module+2.jpg), based on the PAM8610)
+- Digitally controlled PA audio amp module ( [Pic1](../uploads/images/Amp Module 1.jpg), [Pic2](../uploads/images/Amp Module 2.jpg), based on the PAM8610)
 - RFID & Keypad module (Wiegand26 based, [libraries/CardReader/CardReader.cpp:20](https://bitbucket.org/cat101/casac/src/default/libraries/CardReader/CardReader.cpp#cl-20))
 - MP3 player to play pre-recorded TTS voice cues ( [WTV020-SD reference page](http://www.emartee.com/product/41540/MP3%20Sound%20Module%20Mini%20SD%20Card))
 - Battery backed up real time clock (based on DS1307)
@@ -63,8 +68,8 @@ Here is a list of some of the modules a motherboard can include
 The following modules are placed externally to the motherboard to keep the mains voltage separated from the low voltage circuitry
 
 - Power supply
-- Wall switches module ( [schematics](../uploads%2Fimages%2FLight+switches+-+v2_schem.png))
-- 5V Solid State Relay Shield ( [Pic1](../uploads%2Fimages%2FSSR+1.png), [Pic2](../uploads%2Fimages%2FSSR+2.png))
+- Wall switches module ( [schematics](../uploads/images/Light switches - v2_schem.png))
+- 5V Solid State Relay Shield ( [Pic1](../uploads/images/SSR 1.png), [Pic2](../uploads/images/SSR 2.png))
 
 Here is an example of a fully assembled mother board installed on "the wall" with the external modules housed on a different case
 

@@ -19,11 +19,6 @@
   -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
   -->
 
-[Usage &amp; Configuration]()
-
-  * [The SD file system](in wall/The SD file system.md)
-  * [The REST API](in wall/The REST API.md)
-
 [Code design &amp; documentation]()
 
   * # House state
@@ -40,6 +35,11 @@
   * # Configuration
   * [Storing slave's config data on EEPROM](in wall/Storing slave's config data on EEPROM.md)
   * [Storing master's config data on SD](in wall/Storing master's config data on SD.md)
+
+[Usage &amp; Configuration]()
+
+  * [The SD file system](in wall/The SD file system.md)
+  * [The REST API](in wall/The REST API.md)
 
 <!-- [References](reference/SW Development tools.md) -->
 

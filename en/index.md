@@ -1,6 +1,8 @@
 ## Introduction
 
-La CasaC is a comfortable, efficient, low maintenance & sustainable family house. All of this is achieved through innovative construction & design techniques and lots of automation. When I started planning La CasaC I had two options in order to automate it: use commercial products like home automation controllers, security lighting, burglar alarm, etc. and then spend my time trying to integrate proprietary protocols or use Open Source hardware and software to build/integrate everything from scratch. Having suffered the commercial/closed approach with my previous house I decided to try the latter.
+La CasaC is a comfortable, energy efficient, low maintenance and sustainable house. It is an ongoing project me and my wife started back in 2012. After three years of design and planning and two years of construction we moved in.
+
+When I started planning La CasaC I had two options: use commercial products like home automation controllers, security lighting, burglar alarm, etc. and then spend my time trying to integrate proprietary protocols or use Open Source hardware and software to build/integrate everything from scratch. Having suffered the commercial/closed approach with my previous house I decided to try the latter.
 
 <!-- ## What can the house do?
 
@@ -12,10 +14,9 @@ To-Do: Add a section about the SW features and references to the source code (e.
 
 ## Overall system design
 
-Building the system from scratch was a significant challenge given the scale of the project. The “bill of materials” based on the house blueprints and family expectations included:
+Building the system from scratch was a significant challenge given the scale of the project. The “initial specs” based on the house blueprints and family expectations included:
 
-- 40 Wall switches to turn lights on/off
-- 45 Light channels to control 136 lamps
+- 40 Wall switches to turn lights on/off (i.e. over 45 Light channels to control 136 lamps!)
 - 2 Garage doors and 2 doors with an electric lock
 - 2 Mechanized awnings that had to follow the sun on summer to keep the living room cool
 - 55 sensors (doors switches, PIR sensors, water flood, pool alarm)

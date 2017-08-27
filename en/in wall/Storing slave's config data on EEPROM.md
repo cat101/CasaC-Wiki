@@ -24,8 +24,8 @@ Each data block is written & read using [EEPROMex](http://playground.arduino.cc/
 Sample data blocks:
 
 - CardReader stores an array of 10 PINs or RFIDs (i.e. unsigned long)
-  - [libraries/CardReader/CardReader.cpp:64](https://bitbucket.org/cat101/casac/src/default/libraries/CardReader/CardReader.cpp#cl-64)
+  - [libraries/CardReader/CardReader.cpp:64](https://github.com/cat101/CasaC/blob/master/libraries/CardReader/CardReader.cpp#L64)
 
 - SensorAcq stores an array of struct sensorThreshold (static size defined at compile time)
-  - [libraries/SensorAcq/SensorAcq.cpp:39](https://bitbucket.org/cat101/casac/src/default/libraries/SensorAcq/SensorAcq.cpp#cl-39)
+  - [libraries/SensorAcq/SensorAcq.cpp:39](https://github.com/cat101/CasaC/blob/master/libraries/SensorAcq/SensorAcq.cpp#L39)
 

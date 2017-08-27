@@ -5,7 +5,7 @@
   - RS485CMD\_COLLECT\_SENSOR: 4
   - RS485CMD\_COLLECT\_SENSOR\_EXTENDED: 5
 
-- Packet format [libraries/CasaC/CasaC.h:122](https://bitbucket.org/cat101/casac/src/default/libraries/CasaC/CasaC.h#cl-122)
+- Packet format [libraries/CasaC/CasaC.h:122](https://github.com/cat101/CasaC/blob/master/libraries/CasaC/CasaC.h#L122)
 
 ## Timed output
 
@@ -22,7 +22,7 @@
 ## Set mode/status
 
 - This command is used to set & share mode bits with single nodes or the whole house. Nodes won't sent an acknowledge when receiving this command
-- The commands pushes 2 mode bytes. Description of the individual bits can be found on [libraries/RS485Slave/RS485Slave.cpp:142](https://bitbucket.org/cat101/casac/src/default/libraries/RS485Slave/RS485Slave.cpp#cl-142)
+- The commands pushes 2 mode bytes. Description of the individual bits can be found on [libraries/RS485Slave/RS485Slave.cpp:142](https://github.com/cat101/CasaC/blob/master/libraries/RS485Slave/RS485Slave.cpp#L142)
 - Constants 
   - RS485CMD\_SET\_MODE:8
 

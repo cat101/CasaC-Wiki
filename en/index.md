@@ -64,7 +64,7 @@ Here is a list of some of the modules a motherboard can include
 - Light sensor module
 - Flood sensor module
 - Digitally controlled PA audio amp module ( [Pic1](../uploads/images/Amp Module 1.jpg), [Pic2](../uploads/images/Amp Module 2.jpg), based on the PAM8610)
-- RFID & Keypad module (Wiegand26 based, [libraries/CardReader/CardReader.cpp:20](https://bitbucket.org/cat101/casac/src/default/libraries/CardReader/CardReader.cpp#cl-20))
+- RFID & Keypad module (Wiegand26 based, [libraries/CardReader/CardReader.cpp:20](https://github.com/cat101/CasaC/blob/master/libraries/CardReader/CardReader.cpp#L20))
 - MP3 player to play pre-recorded TTS voice cues ( [WTV020-SD reference page](http://www.emartee.com/product/41540/MP3%20Sound%20Module%20Mini%20SD%20Card))
 - Battery backed up real time clock (based on DS1307)
 - Ethernet shield ( [W5100 reference](http://arduino.cc/en/Main/ArduinoEthernetShield))

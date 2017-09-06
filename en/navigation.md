@@ -45,6 +45,7 @@
 
 [GitHub Repo](https://github.com/cat101/CasaC)
 
+<div id="google_translate_element"></div>
 
 <!-- A more complex navigation example: ----------------------------------------
 

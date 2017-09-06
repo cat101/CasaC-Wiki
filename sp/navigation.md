@@ -3,7 +3,7 @@
   -- Do NOT remove the leading `#` character.
   -->
 
-# La Casa C
+# La CasaC
 
 
 <!--
@@ -22,6 +22,8 @@
 [Confort](construccion/Confort.md)
 [Eficiencia](construccion/Eficiencia energetica.md)
 [Fotos](https://goo.gl/photos/PSqoa4BDfdnn28Vv8)
+
+<div id="google_translate_element"></div>
 
 <!-- A more complex navigation example: ----------------------------------------
 

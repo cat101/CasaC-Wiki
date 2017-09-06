@@ -1,6 +1,6 @@
 Las necesidades energéticas de una casa están fuertemente determinadas por el uso de energía para climatización, iluminación y electrodomésticos. El diseño de la misma y el método constructivo son los principales responsables del costo de climatizar e iluminar.
 
-El diseño pasivo busca reducir el uso de energía en climatización ([ver passiv haus](http://en.wikipedia.org/wiki/Passive_solar_design)) e iluminación ([ver day lighting](http://en.wikipedia.org/wiki/Daylighting)). En la Casa C principalmente se tuvieron en cuenta los siguientes aspectos de diseño:
+El diseño pasivo busca reducir el uso de energía en climatización ([ver passiv haus](http://en.wikipedia.org/wiki/Passive_solar_design)) e iluminación ([ver day lighting](http://en.wikipedia.org/wiki/Daylighting)). En la CasaC principalmente se tuvieron en cuenta los siguientes aspectos de diseño:
 
 * Orientación y clima
 * Aislación de muros y techos

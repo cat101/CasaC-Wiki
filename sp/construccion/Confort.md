@@ -1,5 +1,5 @@
 ## Temperatura agradable
-En gran parte el confort de la casa se debe al control de la temperatura y humedad interior. El desafío en la Casa C fue lograr una temperatura agradable en toda la casa y al mismo tiempo limitar el uso de energía externa. Para ello se usaron los siguientes criterios de diseño:
+En gran parte el confort de la casa se debe al control de la temperatura y humedad interior. El desafío en la CasaC fue lograr una temperatura agradable en toda la casa y al mismo tiempo limitar el uso de energía externa. Para ello se usaron los siguientes criterios de diseño:
 
 * [Diseño pasivo](Diseno y construccion.md) para capturar energía del sol en invierno y repelerla en verano
 * [Construcción de alta aislación](metodo constructivo.md) para reducir la perdida de calor y minimizar las contribuciones externas  no deseadas
@@ -16,7 +16,7 @@ Estos son algunos de los resultados iniciales en cuanto a la climatizacion e ine
 
 ## Practicidad en el uso diario
 
-* Manejo de la ropa sucia: En una casa de dos pisos es común tener que subir y bajar ropa desde los dormitorios hacia el lavadero hacia la lavandería. La Casa C cuenta con tubería que permite llevar la ropa sucia desde la planta alta hacia el lavadero
+* Manejo de la ropa sucia: En una casa de dos pisos es común tener que subir y bajar ropa desde los dormitorios hacia el lavadero hacia la lavandería. La CasaC cuenta con tubería que permite llevar la ropa sucia desde la planta alta hacia el lavadero
 * Manejo de la basura: Con el fin de reducir el volumen de basura y el transporte de la misma por el interior de la casa. La casa tiene un triturador de basura integrado con la pileta de la cocina. Este triturador reduce los restos de comida y los convierte en abono para el reciclado de aguas (compost húmedo). La basura inorgánica es depositada desde la cocina en una tubería que la traslada al exterior de la casa donde es acumulada para luego ser llevada canasto de recolección de basura publica.
 * Luces automáticas y de cortesía ([ver eficiencia](Eficiencia energetica.md))
 
@@ -38,7 +38,7 @@ La casa cuenta con tres etapas de filtrado. El primer filtro remueve las partíc
 El tanque de agua se encuentra en el interior de la casa para así garantizar una temperatura de agua agradable todo el año (entre 25 y 17 grados).
 
 ## Acondicionamiento eléctrico
-La falta de un servicio eléctrico de calidad genera disconfort. En particular la presencia de micro cortes, cortes prolongados, subidas y bajadas de tensión producen intranquilidad y generan fallas en otros servicios (internet, telefono, etc). La Casa C cuenta con varios mecanismos para garantizar un servicio de calidad. Entre ellos se destacan:
+La falta de un servicio eléctrico de calidad genera disconfort. En particular la presencia de micro cortes, cortes prolongados, subidas y bajadas de tensión producen intranquilidad y generan fallas en otros servicios (internet, telefono, etc). La CasaC cuenta con varios mecanismos para garantizar un servicio de calidad. Entre ellos se destacan:
 
  * Un tendido de UPS que permite garantizar la continuidad de servicios como Internet, cámaras de vigilancia, luces en áreas de transito y la operación de portones mecanizados. En condiciones normales la UPS esta dimensionada para garantizar estos servicios por 10 horas. La UPS puede generar 2Kw/h pico y tiene una batería de 12v x 110A (i.e. 1300W).
  * Estabilización de tensión para toda la casa con corte por sobre tensión. Esto garantiza la correcta operación de todos los aparatos eléctricos.

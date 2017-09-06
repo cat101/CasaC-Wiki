@@ -13,7 +13,7 @@ Se utilizaron tres estrategias para lograr una iluminación de calidad y alta ef
 
 ## Paneles solares foto voltaicos
 ![](https://lh3.googleusercontent.com/qZA61zNbLtfgubkmfXmv7Cw2hf00gNrhr5Ai7q9IJxh7a9MyB7ub-FOpek4W2zT08BmZd4ti7omhtw=w2048-h1152-no "Instalacion solar")
-La casa cuenta con paneles solares para generar el 20% del consumo diario. El sistema es grid-tie y por ende el exceso de energía generado se devuelve a la red eléctrica. En Cordoba no hay net metering y por lo tanto la compañía eléctrica no contabiliza el excedente. Esta es la razón por la cual el sistema se dimensiono para generar el 20% del consumo total. La Casa C consume 100-200W/h de base y los paneles pueden llegar a generar 400W/h. De esta forma podemos cubrir el consumo mínimo y generar un pequeño excedente el cual usamos programando el uso de electrodomésticos como el lavarropa para las horas de generación pico.
+La casa cuenta con paneles solares para generar el 20% del consumo diario. El sistema es grid-tie y por ende el exceso de energía generado se devuelve a la red eléctrica. En Cordoba no hay net metering y por lo tanto la compañía eléctrica no contabiliza el excedente. Esta es la razón por la cual el sistema se dimensiono para generar el 20% del consumo total. La CasaC consume 100-200W/h de base y los paneles pueden llegar a generar 400W/h. De esta forma podemos cubrir el consumo mínimo y generar un pequeño excedente el cual usamos programando el uso de electrodomésticos como el lavarropa para las horas de generación pico.
 <!-- ![](https://lh3.googleusercontent.com/NyCO4svTipAgamcLQ5bEJBOe2xbtWAKBPa504R8Kr5dtUwJNIgPU9YU-qRaE_HI3yPixPmEmcL2JdQ=w874-h1552-no "Instalacion solar") -->
 
 

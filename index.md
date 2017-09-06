@@ -1,2 +1,2 @@
-## Construccion de la Casa C [(español)](sp/index.md)
+## Construccion de la CasaC [(español)](sp/index.md)
 ## Home automation software [(english)](en/index.md)

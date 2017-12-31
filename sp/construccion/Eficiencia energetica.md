@@ -13,12 +13,26 @@ Se utilizaron tres estrategias para lograr una iluminación de calidad y alta ef
 
 ## Paneles solares foto voltaicos
 ![](https://lh3.googleusercontent.com/qZA61zNbLtfgubkmfXmv7Cw2hf00gNrhr5Ai7q9IJxh7a9MyB7ub-FOpek4W2zT08BmZd4ti7omhtw=w2048-h1152-no "Instalacion solar")
-La casa cuenta con paneles solares para generar el 20% del consumo diario. El sistema es grid-tie y por ende el exceso de energía generado se devuelve a la red eléctrica. En Cordoba no hay net metering y por lo tanto la compañía eléctrica no contabiliza el excedente. Esta es la razón por la cual el sistema se dimensiono para generar el 20% del consumo total. La CasaC consume 100-200W/h de base y los paneles pueden llegar a generar 400W/h. De esta forma podemos cubrir el consumo mínimo y generar un pequeño excedente el cual usamos programando el uso de electrodomésticos como el lavarropa para las horas de generación pico.
+La casa cuenta con paneles solares para generar el 20% del consumo diario. En total tenemos 5 paneles de 120W lo cual da una generación teórica instantánea de 600W/h. En la practica logramos una generación de 444W/h luego de restar todas las ineficiencias de transmisión y conversión (o sea un 73% de eficiencia). 
+El sistema es grid-tie y por ende el exceso de energía generado se devuelve a la red eléctrica. En Cordoba no hay net metering y por lo tanto la compañía eléctrica no contabiliza el excedente. Esta es la razón por la cual el sistema se dimensiono para generar solo el 20% del consumo total. 
+
+En el siguiente gráfico se muestra un dia de consumo moderado (solo iluminación y domotica). La curva verde muestra consumo y la marrón generación.
+
+![](../../images/ConsumoVsGeneracionDic2017.png "Generación versus consumo")
+
+Se puede observar varias cosas:
+
+* El horario de generación fue entre las 7hs y 19hs (en diciembre) y entre las 10hs y 16hs la producción se mantuvo arriba de 200W/h
+* La generación pico fue de 270W/h
+* Alrededor del medio día hubo energía generada que no fue consumida y se inyecto en la red eléctrica. En un día normal, programaríamos el lavavajillas o el lavarropa para que se prenda automáticamente al medio día (esta practica se conoce como ["Load Shifting"](https://en.wikipedia.org/wiki/Load_management)
+* El consumo base de la casa es de 220W/h. Esto se debe principalmente a la domotica y redes de computación
+
+En resumen, La CasaC consume 200W/h de base y los paneles pueden llegar a generar 400W/h. De esta forma podemos cubrir el consumo mínimo y generar un pequeño excedente el cual usamos programando el uso de electrodomésticos como el lavarropa para las horas de generación pico.
 <!-- ![](https://lh3.googleusercontent.com/NyCO4svTipAgamcLQ5bEJBOe2xbtWAKBPa504R8Kr5dtUwJNIgPU9YU-qRaE_HI3yPixPmEmcL2JdQ=w874-h1552-no "Instalacion solar") -->
 
 
 ## Termo-tanque solar
-El mecanismo principal para tener agua caliente es un termotanque solar Hissuma. El mismo esta sobre dimensionado para una familia de 4 personas (300 litros). Gracias a esto podemos tener agua caliente incluso luego de dos días nublados (debido a la alta acumulación). En el 2015 el termotanque pudo servir agua caliente el 92% de los dias del año. Para lograr estos niveles de eficiencia, detrás del termotanque hay un sofisticado sistema de control el cual se integra con la automatización de la casa. La estrategia de control busca que a las 6pm el tanque tenga al menos el 150L de agua a 52C. Para lograr esto el controlador va llenando el tanque lentamente y viendo como el agua se calienta por el sol. Dependiendo de la velocidad de calentamiento, el controlador puede decidir activar una resistencia eléctrica para suplementar al sol y asi lograr la meta diaria. En el 2015 se uso energía eléctrica solo en 28 dias.
+El mecanismo principal para tener agua caliente es un termotanque solar Hissuma. El mismo esta sobre dimensionado para una familia de 4 personas (300 litros). Gracias a esto podemos tener agua caliente incluso luego de dos días nublados (debido a la alta acumulación). En el 2015 el termotanque pudo servir agua caliente el 92% de los dias del año. Para lograr estos niveles de eficiencia, detrás del termotanque hay un sofisticado sistema de control el cual se integra con la automatización de la casa. La estrategia de control busca que a las 6pm el tanque tenga al menos el 150 litros de agua a 52C. Para lograr esto el controlador va llenando el tanque lentamente y viendo como el agua se calienta por el sol. Dependiendo de la velocidad de calentamiento, el controlador puede decidir activar una resistencia eléctrica para suplementar al sol y asi lograr la meta diaria. En el 2015 el uso de energía eléctrica se limito a solo 28 dias (45 horas).
 
 Es importante notar que la vajilla se lava principalmente en un lavavajilla y por ende no hace falta agua caliente en la cocina. Esto hace que el uso del termotanque se principalmente para ducharse (4 personas todos los días). Gracias a esto el sistema de control solo tiene que garantizar agua caliente luego de las 6pm y no durante todo el dia.
 
@@ -33,7 +47,7 @@ Una parte clave de la eficiencia energética es la disminución del consumo. Gra
 ## Eficiencia energética medida en 2015
 A continuación presentamos los resultados del uso de energía eléctrica durante el año 2015:
 
-* El aire acondicionado se uso para calefaccionar o refrigerar en 185 dias y por un total de 694 horas
+* El aire acondicionado se uso para calefaccionar o refrigerar la casa en 185 dias y por un total de 694 horas
 * La resistencia del termotanque solar se prendió por 45 horas (solo hizo falta en 28 dias). El resto de los dias el sol fue suficiente para proveernos de agua caliente
 * Los paneles solares generaron el 18% de la energía consumida
 * El consumo total de energia fue 10.0 Kw/m2/año. O sea una calificación energética A
